@@ -12,7 +12,7 @@ export default function Counter() {
         event.preventDefault();
       }}
     >
-      <label> Counter updated : {state} </label>
+      <label> Counter updated! : {state} </label>
       <button
         className="ml-4 p-2 bg-gray-600 rounded-md"
         onClick={() => setState((state) => state + 1)}
